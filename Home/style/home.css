@@ -36,7 +36,22 @@ ul li{list-style:	none;}
 img{vertical-align: top;}
 
 
+html{
+	background-color: red;
+	max-width: 100%;
+}
 
+
+body{
+background-color:#181818;
+width: 1000px;
+
+height: 2220px;
+margin-left: 350px;
+margin-right: 200px;
+z-index: 1;
+
+}
 
 
 
