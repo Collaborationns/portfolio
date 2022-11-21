@@ -36,7 +36,7 @@ ul li{list-style:	none;}
 img{vertical-align: top;}
 
 /*-------------------------------------*/
-
+/*General Body*/
 .body{
 	background-color: #252525;
 	width: 100%;
@@ -47,7 +47,7 @@ img{vertical-align: top;}
 	padding-bottom:10px;
 }
 
-
+/*Inside Body*/
 .body-container{
 	
 	margin-left: auto;
@@ -58,6 +58,8 @@ img{vertical-align: top;}
 	background-color: #181818;
 
 }
+
+
 
 .aside{
 	max-width: 300px;
