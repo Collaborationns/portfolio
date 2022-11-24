@@ -34,6 +34,7 @@ a:hover{text-decoration: none;}
 ul li{list-style:	none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: inherit;}
+a{text-decoration: none;}
 
 /*-----------------------------------------------------*/
 /*Background of the whole page*/
@@ -167,6 +168,89 @@ input.nav-search-field:focus {
 
 .aside-main-container-header-img{
 	display: flex;
-
 	justify-content: center;
+}
+
+.aside-main-container-content-header{
+	padding-bottom: 55px;
+}
+
+.aside-main-container-content-header-text-header{
+	padding-left: auto;
+	padding-right: auto;
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 15px;
+	height: auto;
+	color: #F9F0DA;
+	font-family:  'Patrick Hand', cursive;
+	font-weight: 400;
+	font-size: 25px;
+	max-width: 300px;
+	width: 100%;
+}
+
+.aside-main-container-content-header-text-main{
+	text-align: center;
+	color: #F9F0DA;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	max-width: 300px;
+	width: 100%;
+	padding-bottom: 25px;
+}
+
+.aside-main-container-content-header-social-media{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	text-align: center;
+	justify-content: center;
+}
+
+.aside-main-container-content-maincontent-text{
+	color: #F9F0DA;
+	font-family:'Montserrat', sans-serif;
+	font-style: italic;
+	font-size: 16px;
+	text-align: center;
+	font-weight: 400;
+	padding-bottom: 55px;
+}
+
+.aside-main-container-content-maincontent-buttons{
+	max-width: 300px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	text-align: center;
+	justify-content: center;
+}
+
+.button-my-works{
+	text-align: center;
+	margin-right: 15px;
+	background-color: #ED3024;
+	border-radius: 25px;
+	height: 40px;
+	width: 120px;
+	color: #F9F0DA;
+	font-weight: 600;
+	font-family:'Montserrat', sans-serif;
+	font-size: 15px;
+}
+
+.button-contact-me{
+	text-align: center;
+	margin-right: 15px;
+	background-color: #3137C9;
+	border-radius: 25px;
+	height: 40px;
+	width: 120px;
+	color: #F9F0DA;
+	font-weight: 600;
+	font-family:'Montserrat', sans-serif;
+	font-size: 15px;
 }
