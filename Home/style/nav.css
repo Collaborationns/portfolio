@@ -1,16 +1,73 @@
 
 /*Бек граунт для nav*/
 .nav-container{
-	margin-left:300px;
+	width: 700px;
+	float: right;
 	height: 40px;
 	background-color: #0D0D0D;
-	
+	width: 70%;
 }
 
 .nav-container-block{
-	text-align: center;
-	padding: 5px;
+	position: relative;
+	display: flex;
 	color: #FFFFFF;
-	
+	text-transform: uppercase;
+	font-size: 11px;
+	line-height: 13px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
 
 }
+.nav-item-main {
+	padding-left: 15px;
+	padding-right: 13px;
+	padding-top: 14px;
+	padding-bottom:15px ;
+
+}
+
+.nav-item-article {
+	padding-left: 10px;
+	padding-right: 13px;
+	padding-top: 14px;
+	padding-bottom:15px ;
+}
+
+.nav-item-about-me {
+	padding-left: 10px;
+	padding-right: 13px;
+	padding-top: 14px;
+	padding-bottom:15px ;
+}
+
+.nav-item-advertising {
+	padding-left: 10px;
+	padding-right: 13px;
+	padding-top: 14px;
+	padding-bottom:15px ;
+}
+
+
+
+.item-profile {
+	margin-left: 68px;
+	padding-right: 13px;
+	padding-top: 14px;
+	padding-bottom:15px ;
+}
+
+.item-input-container,input {
+	margin-left: 30px;
+	width: 212px;
+	height: 40px;
+	background-color:#202020;
+	color: #FFFFFF;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+}
+
