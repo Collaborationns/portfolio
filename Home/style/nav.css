@@ -20,7 +20,19 @@
 	font-style: normal;
 	font-weight: 400;
 
+	text-decoration: none;
+
 }
+
+a{
+	color: #FFFFFF;
+
+}
+a:hover{
+
+	background-color: #3137C9;
+}
+
 .nav-item-main {
 	padding-left: 15px;
 	padding-right: 13px;
