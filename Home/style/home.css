@@ -54,18 +54,19 @@ img{vertical-align: top;}
 	height: 100%;
 	background-color: #181818;
 
+	box-shadow: rgba(0, 0, 0, 0.25) 7px 7px 12px -2px;
 }
 
 
-
+/*Site left*/
 aside{
 	width: 30%;
 	background-color: #202020;
 	height: 2200px;
 	float: left;
-	display: block;
-	
-	box-shadow: 5px 0px 15px rgba(5, 5, 5, 0.1);
+	position: relative;
+
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 7px 0px;
 	
 }
 
