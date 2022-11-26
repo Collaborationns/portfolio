@@ -36,50 +36,16 @@ ul li{list-style:	none;}
 img{vertical-align: top;}
 
 /*-------------------------------------*/
-/*General Body*/
-.body{
-	background-color: #252525;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	height: 2220px;
-	
-}
-
-/*Inside Body*/
-.body-container{
-	margin: auto;
-	max-width: 1000px;
-	width: 100%;
-	height: 100%;
-	background-color: #181818;
-
-	box-shadow: rgba(0, 0, 0, 0.25) 7px 7px 12px -2px;
-}
-
-
-/*Site left*/
-aside{
-	width: 30%;
-	background-color: #202020;
-	height: 2200px;
-	float: left;
+.front-aside{
 	position: relative;
 
-
+	top: -50px;
+	left: 100px;
+	right: 100px;
+	
+	box-sizing: border-box;
+	border-radius: 200%;
+	border: 2px solid #FFFFFF;
+	
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
