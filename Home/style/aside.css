@@ -62,7 +62,7 @@ img{vertical-align: top;}
 
 
 }
-.prof-name,h1{
+.prof-name ,h1{
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
@@ -73,7 +73,7 @@ img{vertical-align: top;}
 
 }
 
-.prof-name,p{
+.prof-name p{
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 300;
@@ -96,7 +96,7 @@ img{vertical-align: top;}
 
 	justify-content: space-evenly;
 	flex-direction:row;
-	
+	margin-bottom: 45px;
 
 }
 
@@ -107,5 +107,60 @@ img{vertical-align: top;}
 
 
 
+
+.aside-content p{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+
+	text-align: center;
+
+	color: #FFFFFF;
+	margin-bottom: 30px;
+}
+
+
+button a{
+	text-decoration: none;
+	text-transform: none;
+	color: #FFFFFF;
+
+
+}
+
+.myproject{
+	
+	max-width:100% ;
+	width: 120px;
+	height: 40px;
+	
+	background: #ED3024;
+	border-radius: 25px;
+	position: relative;
+	
+	margin: 12px ;
+
+	
+	
+}
+
+
+
+.writeme{
+	
+	max-width:100% ;
+	width: 120px;
+	height: 40px;
+
+	background-color: #3137C9;
+	border-radius: 25px;
+	position: relative;
+	
+	margin: 15px ;
+	
+
+}
 
 
