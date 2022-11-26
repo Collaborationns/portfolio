@@ -36,6 +36,12 @@ ul li{list-style:	none;}
 img{vertical-align: top;}
 
 /*-------------------------------------*/
+
+.back-aside{
+	height: 240px;
+
+
+}
 .front-aside{
 	position: relative;
 
@@ -49,3 +55,57 @@ img{vertical-align: top;}
 	
 	
 }
+.prof-name{
+	margin-top: 18px;
+	margin-bottom: 18px;
+
+
+
+}
+.prof-name,h1{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color:#FFFFFF;
+
+}
+
+.prof-name,p{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+
+	color: #DEDEDE;
+
+}
+
+.social img{
+	position: relative;
+	
+	
+}
+
+.social{
+	display: flex;
+
+	justify-content: space-evenly;
+	flex-direction:row;
+	
+
+}
+
+.social a:hover {
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+
+
+

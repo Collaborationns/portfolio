@@ -63,11 +63,11 @@ img{vertical-align: top;}
 	
 }
 
-a{
+.nav-container-block a{
 	color: #FFFFFF;
 
 }
-a:hover{
+.nav-container-block a:hover{
 
 	background-color: #3137C9;
 }
